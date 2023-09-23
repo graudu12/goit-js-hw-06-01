@@ -13,6 +13,6 @@ function allSubmit(event) {
     }
     const userData = { email: email.value, Password: password.value }
     
-    //console.log(userData)
+    console.log(userData)
     event.currentTarget.reset()
 }
